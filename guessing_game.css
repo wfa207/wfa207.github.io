@@ -1,0 +1,104 @@
+h1, h2, h3, h4, h5, h6, body, p, a, section, article, nav, ol, ul, li {
+	border: 0;
+	padding: 0;
+	margin: 0;
+	font-family: Helvetica, Tahoma, Verdana;
+}
+html {
+	height: 100%;
+}
+
+h1 {
+	display: none;
+	color: #FFFFFF;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	background: rgba(192, 192, 192, .8);
+	font-weight: bolder;
+	font-size: 350%;
+	text-shadow: 3px 3px 3px #464646;
+	padding: 2% 2%;
+	margin: 1% 1% 2%;
+}
+body {
+	position: relative;
+	background: url(images/7030769-Seamless-background-with-question-signs--Stock-Vector-background-interrogation-mark.jpg) 0 0 repeat padding-box transparent;
+	background-size: auto 100%;
+	overflow: auto;
+}
+input, button {
+	font-size: 120%;
+	font-height: 100%;
+	padding: 3px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	text-align: center;
+	height: 100%;
+	margin: 1.5% 1.5% 1.5%;
+	-webkit-box-shadow: 0px 1px 3px #323232;
+	-moz-box-shadow:    0px 1px 3px #323232;
+	box-shadow:         0px 1px 3px #323232;
+}
+p {
+	color: #FFFFFF;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	background: rgba(192, 192, 192, .8);
+	font-weight: bolder;
+	font-size: 180%;
+	text-shadow: 1px 1px 3px #464646;
+	padding: 1.5% 2%;
+	margin: 1.5% 1.5% 1.5%;
+}
+p.hint {
+	display: none;
+}
+input {
+	padding: 0.5%;
+}
+button {
+	background: #c0c0c0;
+	padding: 1%;
+	font-weight: 500;
+	color: #4005a8;
+	border: 0;
+}
+button.option {
+	color: #424242;
+	text-shadow: 0px 0.5px 0 rgba(255,255,255,.8);
+	background: -moz-linear-gradient(270deg, #c0c0c0 20%, #6f6f6f 70%);
+	background: -webkit-linear-gradient(270deg, #c0c0c0 20%, #6f6f6f 70%);
+	background: -o-linear-gradient(270deg, #c0c0c0 20%, #6f6f6f 70%);
+	background: -ms-linear-gradient(270deg, #c0c0c0 20%, #6f6f6f 70%);
+	background: linear-gradient(180deg, #c0c0c0 20%, #6f6f6f 70%);
+}
+button.submit {
+	color: #FFFFFF;
+	text-shadow: -1px -1px 0 rgba(0,0,0,.8);
+	background: -moz-linear-gradient(270deg, #c0c0c0 20%, #424242 70%);
+	background: -webkit-linear-gradient(270deg, #c0c0c0 20%, #424242 70%);
+	background: -o-linear-gradient(270deg, #c0c0c0 20%, #424242 70%);
+	background: -ms-linear-gradient(270deg, #c0c0c0 20%, #424242 70%);
+	background: linear-gradient(180deg, #c0c0c0 20%, #424242 70%);
+}
+.submit-highlight {
+	color: #000000;
+	text-shadow: 1px 1px 0 rgba(0,0,0,.8);
+	background: -moz-linear-gradient(270deg, #424242 20%, #c0c0c0 70%);
+	background: -webkit-linear-gradient(270deg, #424242 20%, #c0c0c0 70%);
+	background: -o-linear-gradient(270deg, #424242 20%, #c0c0c0 70%);
+	background: -ms-linear-gradient(270deg, #424242 20%, #c0c0c0 70%);
+	background: linear-gradient(180deg, #424242 20%, #c0c0c0 70%);
+}
+.option-highlight {
+	color: #424242;
+	text-shadow: 0px -0.5px 0 rgba(255,255,255,.8);
+	background: -moz-linear-gradient(270deg, #6f6f6f 20%, #c0c0c0 70%);
+	background: -webkit-linear-gradient(270deg, #6f6f6f 20%, #c0c0c0 70%);
+	background: -o-linear-gradient(270deg, #6f6f6f 20%, #c0c0c0 70%);
+	background: -ms-linear-gradient(270deg, #6f6f6f 20%, #c0c0c0 70%);
+	background: linear-gradient(180deg, #6f6f6f 20%, #c0c0c0 70%);
+}
